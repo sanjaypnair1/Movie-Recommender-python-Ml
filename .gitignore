@@ -1,0 +1,51 @@
+# =========================
+# Data files (Large / Raw)
+# =========================
+data/*.csv
+data/*.zip
+data/*.parquet
+data/*.pkl
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Environment files
+# =========================
+.env
+.venv/
+venv/
+env/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs & outputs
+# =========================
+logs/
+*.log
+outputs/
+models/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+*.tmp
